@@ -20,8 +20,14 @@
 }
 
 .section-full .container {
-	background-color: green;
-	min-height: 500px;
+	display: flex;
+    flex-direction: column;
+	min-height: 600px;
+}
+.section-last .container{
+    display: flex;
+    align-items: center;
+    justify-content: 
 }
 
 footer .footer-column {

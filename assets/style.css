@@ -11,6 +11,9 @@ h1{
 p{
 	font-size: 20px;
 }
+h2{
+	color: rgb(4, 4, 81);
+}
 .container {
 	max-width: 1000px;
 	margin-inline: auto;
@@ -115,7 +118,7 @@ main section {
 }
 
 .bkg-gray {
-	background-color: lightslategrey; /* TODO: check value */
+	background-color: rgba(119, 136, 153, 0.276); /* TODO: check value */
 }
 
 .section-feature .image-rana {
@@ -134,14 +137,31 @@ main section {
 	flex: 0 0 60%
 }
 
-.section-feature .text {
-	flex: 0 0 40%;
+.section-full .image-last{
 	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-	
+	background-image: url(../img/item4-big.svg);
+	background-size: cover;
+	height: 500px;
+}
+.download-2{
+	color: white;
+	background-color: rgb(11, 77, 211);
+	height: 30px;
+	width: 125px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
 }
 
+.push{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	margin-top: 3rem;
+}
 /* footer */
 
 footer {
