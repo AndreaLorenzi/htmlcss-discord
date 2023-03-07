@@ -9,13 +9,14 @@
 }
 
 .section-feature .image {
-	background-color: aquamarine;
+	
 	min-height: 250px;
 }
 
 .section-feature .text {
-	background-color: rgb(43, 31, 83);
+	background-color: rgba(43, 31, 83, 0);
 	min-height: 250px;
+
 }
 
 .section-full .container {

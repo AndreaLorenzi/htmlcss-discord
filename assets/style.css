@@ -5,6 +5,12 @@
 	box-sizing: border-box;
 }
 
+h1{
+	font-size: 30px;
+}
+p{
+	font-size: 20px;
+}
 .container {
 	max-width: 1000px;
 	margin-inline: auto;
@@ -112,12 +118,28 @@ main section {
 	background-color: lightslategrey; /* TODO: check value */
 }
 
-.section-feature .image {
+.section-feature .image-rana {
+	background-image: url(../img/item1.svg);
+	background-size: cover;
 	flex: 0 0 60%;
+}
+.section-feature .image-mago{
+	background-image: url(../img/item2.svg);
+	background-size: cover;
+	flex: 0 0 60%
+}
+.section-feature .image-poli{
+	background-image: url(../img/item3.svg);
+	background-size: cover;
+	flex: 0 0 60%
 }
 
 .section-feature .text {
 	flex: 0 0 40%;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	
 }
 
 /* footer */
