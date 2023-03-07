@@ -167,17 +167,20 @@ main section {
 footer {
 	padding-top: 4rem;
 	padding-bottom: 2rem;
-	background-color: black; /* TODO: check value */
+	background-color: black; 
 }
 
 footer .footer-top {
 	display: flex;
 	margin-bottom: 2rem;
 	padding-bottom: 2rem;
-	border-bottom: 3px solid white; /* TODO: check value */
+	border-bottom: 3px solid rgb(3, 3, 123); 
 }
 
 footer .column-socials {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	flex: 0 0 40%;
 }
 
@@ -188,4 +191,48 @@ footer .column-links {
 footer .footer-bottom {
 	display: flex;
 	justify-content: space-between;
+}
+.login-2{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+	width: 80px;
+	background-color: rgb(3, 3, 123);
+	border-radius: 5px;
+	text-align: center;
+}
+.blue{
+	color: rgb(4, 4, 173);
+}
+.italiano{
+	color:white;
+	display: flex;
+	align-items:center ;
+	justify-content: space-around;
+	margin-top: 40px;
+	
+}
+.flag{
+	height: 20px;
+	width: 30px;
+}
+.pino{
+	width: 120px;
+}
+
+.paragraph{
+	color: rgb(1, 53, 173);
+	
+}
+
+.link-white{
+	color: white;
+}
+
+.footer-list{
+	display: flex;
+	height: 100%;
+	list-style: none;
+	flex-direction: column;
 }

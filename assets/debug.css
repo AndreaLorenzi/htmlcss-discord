@@ -35,14 +35,14 @@ footer .footer-column {
 }
 
 footer .column-socials {
-	background-color: pink;
+	background-color: rgba(255, 192, 203, 0);
 }
 
 footer .column-links {
-	background-color: darkviolet;
-	border: 2px dashed white;
+	background-color: rgba(148, 0, 211, 0);
+	border: 2px dashed rgba(255, 255, 255, 0);
 }
 
 footer .footer-bottom {
-	background-color: yellow;
+	background-color: rgba(255, 255, 0, 0);
 }
