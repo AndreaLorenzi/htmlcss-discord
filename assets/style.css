@@ -45,6 +45,7 @@
 }
 
 .jumbo {
+    background-image: url(img/logo.svg);
 	padding-top: 3rem;
 	padding-bottom: 4rem;
 }
