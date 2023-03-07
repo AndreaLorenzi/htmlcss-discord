@@ -14,13 +14,31 @@
 	padding-inline: 1rem;
 }
 
+
+.main-list {
+	display: flex;
+	height: 100%;
+	list-style: none;
+}
+
+.main-list a {
+    color: white;
+	display: flex;
+	align-items: center;
+	padding-inline: 1.5em;
+	height: 100%;
+	white-space: nowrap;
+}
 /* header */
 
 .navbar {
 	height: 4rem; /* TODO: check the value */
-	background-color: cyan; /* TODO: check the value */
+	background-color: rgb(2, 41, 132); /* TODO: check the value */
 }
 
+.link{
+    
+}
 .navbar .container {
 	display: flex;
 	justify-content: space-between;
@@ -34,18 +52,22 @@
 }
 
 .navbar .container > *:hover {
-	background-color: brown;
+	background-color: rgb(42, 77, 165);
 	cursor: pointer;
 }
 
+.img{
+   max-width: 1700px;
+}
 .jumbo .content {
 	max-width: 500px;
 	margin-inline: auto;
 	padding-inline: 1rem;
+    
 }
 
 .jumbo {
-    background-image: url(/img/logo.svg);
+    background-image: url(/img/jumbo.png);
 	padding-top: 3rem;
 	padding-bottom: 4rem;
 }

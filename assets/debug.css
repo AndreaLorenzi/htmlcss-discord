@@ -1,10 +1,7 @@
 .navbar .container {
-	background-color: gold;
+	background-color: rgb(2, 41, 132);
 }
 
-.jumbo {
-	background-color: blue;
-}
 
 .jumbo .content {
 	background-color: salmon;
@@ -17,7 +14,7 @@
 }
 
 .section-feature .text {
-	background-color: coral;
+	background-color: rgb(43, 31, 83);
 	min-height: 250px;
 }
 
