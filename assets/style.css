@@ -123,24 +123,28 @@ main section {
 
 .section-feature .image-rana {
 	background-image: url(../img/item1.svg);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	flex: 0 0 60%;
 }
 .section-feature .image-mago{
 	background-image: url(../img/item2.svg);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	flex: 0 0 60%
 }
 .section-feature .image-poli{
 	background-image: url(../img/item3.svg);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	flex: 0 0 60%
 }
 
 .section-full .image-last{
 	display: flex;
 	background-image: url(../img/item4-big.svg);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	height: 500px;
 }
 .download-2{
